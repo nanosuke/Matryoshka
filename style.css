@@ -2,7 +2,7 @@ body{
     font-size: 450px;
     background-color: #DF4E7F;
     color: #1C295F;
-    margin: auto;
+    margin: 50px auto;
     text-align:center;
 }
 
@@ -15,12 +15,12 @@ body{
      }
  }
 
-* {
+*{
 	float: none;
 	position: static;
 }
  
-img {
+img{
 	max-width: 100%;
 	height: auto;
 }
