@@ -2,6 +2,10 @@ html,body{
     overflow: hidden; /*no scrolling*/
 }
 
+*{
+	float: none;
+}
+
 body{
     font-size: 450px;
     background-color: #DF4E7F;
@@ -24,10 +28,6 @@ script{
     position:absolute;
 }
 
-*{
-	float: none;
-}
- 
 img{
 	max-width: 100%;
 	height: auto;
@@ -36,9 +36,17 @@ img{
 #matryoshka-top{
     position: absolute;
     top: 50px;
+    left:50%;
+    transform: translateX(-50%, -50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
 
 #matryoshka-bottom{
     position: absolute;
     bottom: 50px;
+    left:50%;
+    transform: translateX(-50%, -50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
