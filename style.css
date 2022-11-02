@@ -3,10 +3,15 @@ body{
     background-color: #DF4E7F;
     color: #1C295F;
     text-align: center;
+    height: 450px;
+    line-height: 450px;
 }
 
 @media screen and (max-width: 480px) {
     body{
         font-size: 300px;
+        text-align: center;
+        height: 300px;
+        line-height: 300px;
      }
  }
