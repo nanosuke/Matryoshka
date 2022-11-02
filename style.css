@@ -42,6 +42,7 @@ img{
 
     animation-name: top;
     animation-duration: 2s;
+    animation-fill-mode:forwards;
 }
 
 #matryoshka-bottom{
@@ -53,6 +54,7 @@ img{
 
     animation-name: bottom;
     animation-duration: 2s;
+    animation-fill-mode:forwards;
 }
 
 @keyframes top{
