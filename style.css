@@ -3,3 +3,10 @@ body{
     background-color: #DF4E7F;
     color: #1C295F;
 }
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: black;
+         color:red;
+     }
+ }
