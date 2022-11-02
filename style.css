@@ -35,18 +35,40 @@ img{
 
 #matryoshka-top{
     position: absolute;
-    top: 50px;
     left:50%;
     transform: translateX(-50%, -50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
+
+    animation-name: top;
+    animation-duration: 2s;
 }
 
 #matryoshka-bottom{
     position: absolute;
-    bottom: 0px;
     left:50%;
     transform: translateX(-50%, -50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
+
+    animation-name: bottom;
+    animation-duration: 2s;
+}
+
+@keyframes top{
+    0%{
+        top: 50px;
+    }
+    100%{
+        top: -50px;
+    }
+}
+
+@keyframes bottom{
+    0%{
+        bottom: 0px;
+    }
+    100%{
+        bottom: -100px;
+    }
 }
