@@ -1,5 +1,5 @@
 html,body{
-    overflow: hidden;
+    overflow: hidden; /*no scrolling*/
 }
 
 body{
@@ -26,7 +26,6 @@ script{
 
 *{
 	float: none;
-	position: static;
 }
  
 img{
