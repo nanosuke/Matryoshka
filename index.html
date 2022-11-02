@@ -13,5 +13,12 @@
     document.write(location.hash.slice(1))
     </script>
     <img src="photos/matryoshka-bottom.png" alt="matryoshka" id="matryoshka-bottom">
+
+    <script>
+        function disableScroll(event) {
+            event.preventDefault();
+        }
+        document.addEventListener('touchmove', disableScroll, { passive: false });
+    </script>
 </body>
 </html>
