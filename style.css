@@ -2,12 +2,11 @@ body{
     font-size: 450px;
     background-color: #DF4E7F;
     color: #1C295F;
+    text-align: center;
 }
 
 @media screen and (max-width: 480px) {
     body{
-        background-color: #DF4E7F;
-        color: #1C295F;
         font-size: 300px;
      }
  }
