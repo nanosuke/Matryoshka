@@ -34,9 +34,11 @@ img{
 }
 
 #matryoshka-top{
-    
+    position: absolute;
+    top: 50px;
 }
 
 #matryoshka-bottom{
-    
+    position: absolute;
+    bottom: 50px;
 }
