@@ -1,19 +1,16 @@
-html,body{
+html{
     /*overflow: hidden; /*no scrolling*/
     height: 100vh;
-    font-family: ocr-b-std, monospace;
+    font-family: mochiy-pop-p, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-*{
-	float: none;
-}
-
 body{
+    height: 100vh;
     font-size: 450px;
-    background-color: #75D9CC;
-    color: #1C295F;
+    background-color: #D25482;
+    color: #0D1131;
     margin: 0px auto;
     text-align:center;
     position: relative;
@@ -22,27 +19,31 @@ body{
 @media screen and (max-width: 480px) { /*smartphone*/
     body{
         font-size: 300px;
-        text-align: center;
-        height: 300px;
-        line-height: 300px;
+        height: 100vh;
      }
  }
 
 script{
     position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: 0;
 }
 
-img{
-	max-width: 100%;
-	height: auto;
+/* test
+p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: 0;
 }
+*/
 
 #matryoshka-top{
     position: absolute;
-    left:50%;
-    transform: translateX(-50%, -50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
+    left:-100px;
 
     animation-name: top;
     animation-duration: 2s;
@@ -51,10 +52,7 @@ img{
 
 #matryoshka-bottom{
     position: absolute;
-    left:50%;
-    transform: translateX(-50%, -50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
+    right: -90px;
 
     animation-name: bottom;
     animation-duration: 2s;
@@ -63,18 +61,18 @@ img{
 
 @keyframes top{
     0%{
-        top: 50px;
+        top: 0px;
     }
     100%{
-        top: -50px;
+        top: -150px;
     }
 }
 
 @keyframes bottom{
     0%{
-        bottom: 0px;
+        bottom: -20px;
     }
     100%{
-        bottom: -100px;
+        bottom: -190px;
     }
 }
