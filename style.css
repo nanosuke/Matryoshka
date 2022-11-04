@@ -1,6 +1,7 @@
 html,body{
     overflow: hidden; /*no scrolling*/
     height: 100%;
+    font-family: "OCRB";
 }
 
 *{
