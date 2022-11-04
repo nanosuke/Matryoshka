@@ -1,25 +1,29 @@
+/*
 html{
-    /*overflow: hidden; /*no scrolling*/
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     font-family: mochiy-pop-p, sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding:0;
 }
 
 body{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     font-size: 450px;
     /*
     background-color: #D25482;
-    */
+    
     background-color: yellow;
     color: #0D1131;
     margin: 0px auto;
     text-align:center;
     position: relative;
+    border: 13px solid #0D1131;
 }
 
-@media screen and (max-width: 480px) { /*smartphone*/
+@media screen and (max-width: 480px) {
     body{
         font-size: 300px;
         height: 100vh;
@@ -33,9 +37,9 @@ script{
     transform: translateY(-50%) translateX(-50%);
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-/* test
 p{
     position:absolute;
     top: 50%;
@@ -43,7 +47,7 @@ p{
     transform: translateY(-50%) translateX(-50%);
     margin: 0;
 }
-*/
+
 
 #matryoshka-top{
     position: absolute;
@@ -79,4 +83,9 @@ p{
     100%{
         bottom: -190px;
     }
+}
+*/
+
+body{
+    margin: 0 auto;
 }
