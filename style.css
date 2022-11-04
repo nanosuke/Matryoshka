@@ -29,9 +29,6 @@ body{
         height: 100%;
     }
 }
-.wrapper{
-    overflow-x: hidden;
-}
 
 script{
     position:absolute;
@@ -55,7 +52,6 @@ p{ /*test*/
     text-align: center;
     z-index:1;
 }
-
 
 #matryoshka-top{
     position: absolute;
