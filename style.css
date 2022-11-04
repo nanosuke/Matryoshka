@@ -12,8 +12,8 @@ body{
     height: 100%;
     width: 100%;
     font-size: 450px;
-    /*background-color: #D25482;*/
-    background-color: yellow;
+    background-color: #D25482;
+    /*background-color: yellow;*/
     overflow: hidden;
     box-sizing: border-box;
     color: #0D1131;
@@ -21,6 +21,10 @@ body{
     text-align:center;
     position: relative;
     border: 13px solid #0D1131;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 480px) {
