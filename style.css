@@ -7,13 +7,14 @@ html{
     font-style: normal;
     padding:0;
 }
-/*
+
 body{
     height: 100%;
     width: 100%;
     font-size: 450px;
     /*
     background-color: #D25482;
+    */
     
     background-color: yellow;
     color: #0D1131;
@@ -83,14 +84,4 @@ p{
     100%{
         bottom: -190px;
     }
-}
-*/
-
-body{
-    margin: 0 auto;
-    position:relative;
-}
-
-script{
-    position:absolute;
 }
