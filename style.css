@@ -1,6 +1,6 @@
 html,body{
-    overflow: hidden; /*no scrolling*/
-    height: 100%;
+    /*overflow: hidden; /*no scrolling*/
+    height: 100vh;
     font-family: "OCRB";
     font-weight: bold;
 }
