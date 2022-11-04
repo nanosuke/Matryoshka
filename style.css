@@ -12,7 +12,7 @@ body{
     width: 100%;
     font-size: 450px;
     background-color: #D25482;
-    overflow: hidden;
+    /*overflow: hidden;*/
     box-sizing: border-box;
     color: #0D1131;
     margin: 0px auto;
@@ -26,6 +26,9 @@ body{
         font-size: 300px;
         height: 100%;
     }
+}
+.wrapper{
+    overflow-x: hidden;
 }
 
 script{
