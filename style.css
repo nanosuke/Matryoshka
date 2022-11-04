@@ -1,7 +1,7 @@
 html,body{
     /*overflow: hidden; /*no scrolling*/
     height: 100vh;
-    font-family: "OCRB";
+    font-family: "arial black";
     font-weight: bold;
 }
 
@@ -11,7 +11,7 @@ html,body{
 
 body{
     font-size: 450px;
-    background-color: yellow;
+    background-color: blue;
     color: #1C295F;
     margin: 0px auto;
     text-align:center;
