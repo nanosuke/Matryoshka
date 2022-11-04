@@ -48,6 +48,8 @@ p{
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 
