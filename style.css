@@ -12,7 +12,8 @@ body{
     height: 100%;
     width: 100%;
     font-size: 450px;
-    background-color: #D25482;
+    /*background-color: #D25482;*/
+    background-color: yellow;
     overflow: hidden;
     box-sizing: border-box;
     color: #0D1131;
@@ -40,8 +41,10 @@ script{
     margin: 0;
     padding: 0;
     text-align: center;
+    z-index: 1;
 }
 
+/*
 p{
     position:absolute;
     top: 50%;
@@ -51,7 +54,7 @@ p{
     padding: 0;
     text-align: center;
 }
-
+*/
 
 #matryoshka-top{
     position: absolute;
